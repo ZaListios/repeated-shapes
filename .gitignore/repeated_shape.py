@@ -15,11 +15,11 @@ l =
 a = 
 r = 
 aII = 
-threesixtyofaii = math.floor(360 / aII)
+threesixtyofaII = math.floor(360 / aII)
 def shape():
     for i in range(r):
         fd(l)
         rt(a)
-for i in range(threesixtyofaii):
+for i in range(threesixtyofaII):
     shape()
     rt(aII)
